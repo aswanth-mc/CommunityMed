@@ -1,10 +1,7 @@
-/* index.css */
-
-/* Hero Section */
 .hero {
     padding: 80px 5%;
     background: linear-gradient(135deg, #f0fdf4 0%, #ffffff 100%);
-    min-height: 80vh;
+    min-height: 70vh;
     display: flex;
     align-items: center;
 }
@@ -13,81 +10,47 @@
     max-width: 1400px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 50px;
-    align-items: center;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 40px;
 }
 
-.hero-text h1 {
-    font-size: 4rem;
-    line-height: 1.1;
-    margin-bottom: 25px;
-    font-weight: 800;
-}
-
+.hero-text h1 { font-size: 3.5rem; font-weight: 800; line-height: 1.1; margin-bottom: 20px; }
 .hero-text h1 span { color: var(--primary-green); display: block; }
+.hero-text p { font-size: 1.2rem; color: var(--text-gray); margin-bottom: 30px; }
 
-.hero-text p {
-    font-size: 1.25rem;
-    color: var(--text-gray);
-    margin-bottom: 40px;
-    max-width: 500px;
-}
+.hero-btns { display: flex; gap: 15px; }
+.btn-fill { background: var(--primary-green); color: white; padding: 15px 30px; border-radius: 8px; text-decoration: none; font-weight: 700; }
+.btn-outline { border: 2px solid var(--primary-green); color: var(--primary-green); padding: 13px 30px; border-radius: 8px; text-decoration: none; font-weight: 700; }
 
-.hero-btns { display: flex; gap: 20px; }
-
-.btn-fill {
-    background: var(--primary-green);
-    color: white;
-    padding: 18px 35px;
-    border-radius: 10px;
-    text-decoration: none;
-    font-weight: 700;
-}
-
-.btn-outline {
-    border: 2px solid var(--primary-green);
-    color: var(--primary-green);
-    padding: 16px 35px;
-    border-radius: 10px;
-    text-decoration: none;
-    font-weight: 700;
-}
-
-.hero-image img {
-    width: 100%;
-    border-radius: 20px;
-    box-shadow: 20px 20px 60px rgba(0,0,0,0.1);
-}
-
-/* Sections */
-.section-title {
-    text-align: center;
-    font-size: 2.5rem;
-    margin: 100px 0 50px;
-}
+.section-title { text-align: center; margin: 80px 0 40px; font-size: 2.5rem; }
 
 .steps-container, .role-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 30px;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
 }
 
 .step, .role-card {
     background: #f8fafc;
     padding: 40px;
-    border-radius: 20px;
+    border-radius: 15px;
     text-align: center;
     transition: 0.3s;
 }
 
-.role-card:hover {
-    transform: translateY(-10px);
-    background: white;
-    box-shadow: var(--shadow);
+.step-num { 
+    background: var(--primary-green); 
+    color: white; 
+    width: 40px; height: 40px; 
+    display: flex; align-items: center; justify-content: center; 
+    border-radius: 50%; margin: 0 auto 20px; 
 }
 
-.role-icon { font-size: 3rem; margin-bottom: 20px; display: block; }
+.role-icon { font-size: 3rem; display: block; margin-bottom: 15px; }
+.btn-role { 
+    display: inline-block; margin-top: 15px; color: var(--primary-green); 
+    font-weight: 700; text-decoration: none; border-bottom: 2px solid transparent; 
+}
+.btn-role:hover { border-bottom: 2px solid var(--primary-green); }
