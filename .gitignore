@@ -1,5 +1,28 @@
-
-# Virtual environments
+# Virtual environment
+env/
 venv/
+*.pyc
+__pycache__/
 
+# Django specific
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
 
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python packaging
+*.egg-info/
+*.egg
+dist/
+build/
