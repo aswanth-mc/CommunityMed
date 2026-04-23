@@ -1,18 +1,35 @@
-:root {
-  --green-dark: #1a6b3c;
-  --green-mid:  #2e8b57;
-  --green-light: #4caf50;
-  --text-nav:   #2c2c2c;
-  --text-muted: #6b7280;
-}
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 
 body {
-      font-family: 'DM Sans', sans-serif;
-      background: #f5f7f5;
-    }
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #f8faf9;
+    color: #162133;
+}
+
+/* navbar */
+.navbar-brand {
+  letter-spacing: 0.3px;
+}
+
+.navbar-nav .nav-item {
+  color: #162133;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+}
+.navbar-nav .nav-item:hover {
+  color: #17975e;
+}
+
+.btn-success {
+  background-color: #17975e;
+  border: none;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  font-size: 15px;
+  font-weight: 500;
+}
+.btn-success:hover {
+  background-color: #14814b;
+  border-color: #14814b;
+}
