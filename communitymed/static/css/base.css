@@ -33,3 +33,17 @@ body {
   background-color: #14814b;
   border-color: #14814b;
 }
+
+/* footer */
+.site-footer{
+  background-color: #162133;
+  color: #17975e;
+}
+.site-footer a {
+    color: #d8e4f2;
+    text-decoration: none;
+}
+
+.site-footer a:hover {
+    color: #ffffff;
+}
