@@ -6,63 +6,66 @@
 {% endblock %}
 
 {% block content %}
-<section class="hero">
-    <div class="hero-container">
-        <div class="hero-text">
-            <h1>Don't Waste Medicine. <span>Share Life.</span></h1>
-            <p>Medi-Share connects unused, unexpired medicines with people in need through trusted palliative care units.</p>
-            <div class="hero-btns">
-                <a href="/donate/" class="btn-fill">📦 Donate Medicine</a>
-                <a href="/marketplace/" class="btn-outline">🔍 Find Medicine</a>
+<section class="hero-section py-5">
+    <div class="container">
+        <div class="row align-items-center g-4">
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold mb-3">Don't Waste Medicine.<br>Share Life.</h1>
+                <p class="lead text-secondary mb-4">Medi-Share connects unused, unexpired medicines with people in need through trusted palliative care units.</p>
+                <div class="d-flex flex-wrap gap-3">
+                    <a href="#" class="btn btn-success btn-lg">
+                        <i class="bi bi-box2-heart me-2"></i>Donate Medicine
+                    </a>
+                    <a href="#" class="btn btn-outline-success btn-lg">
+                        <i class="bi bi-search-heart me-2"></i>Find Medicine
+                    </a>
+                                    </div>
+                <div class="row text-center mt-4 g-3">
+                    <div class="col-4"><small><i class="bi bi-shield-check text-success me-1"></i>100% Safe</small></div>
+                    <div class="col-4"><small><i class="bi bi-patch-check text-success me-1"></i>Verified Units</small></div>
+                    <div class="col-4"><small><i class="bi bi-geo-alt text-success me-1"></i>Near You</small></div>
+                </div>
             </div>
-        </div>
-        <div class="hero-image">
+            <div class="col-lg-6">
+                <div class="hero-visual rounded-4 p-4 p-md-5">
+                    <h3 class="text-white fw-bold mb-3">Share Hope</h3>
+                    <p class="text-white-50 mb-0">Safe and verified medicine sharing for your community.</p>
+                </div>
             </div>
-    </div>
-</section>
-
-<section class="how-it-works" id="how-it-works">
-    <h2 class="section-title">How Medi-Share Works</h2>
-    <div class="steps-container">
-        <div class="step">
-            <span class="step-num">1</span>
-            <h3>Donate</h3>
-            <p>List your unused medicines with easy details.</p>
-        </div>
-        <div class="step">
-            <span class="step-num">2</span>
-            <h3>Verify</h3>
-            <p>Palliative units verify quality and expiry.</p>
-        </div>
-        <div class="step">
-            <span class="step-num">3</span>
-            <h3>Share</h3>
-            <p>Medicines reach people in need near you.</p>
         </div>
     </div>
 </section>
 
-<section class="roles">
-    <h2 class="section-title">Choose Your Role</h2>
-    <div class="role-cards">
-        <div class="role-card">
-            <span class="role-icon">👤</span>
-            <h3>Donor</h3>
-            <p>Help others by sharing surplus medicine.</p>
-            <a href="/donate/" class="btn-role">Start Donating</a>
-        </div>
-        <div class="role-card">
-            <span class="role-icon">🔍</span>
-            <h3>Seeker</h3>
-            <p>Find essential medicines for free.</p>
-            <a href="/marketplace/" class="btn-role">Search Now</a>
-        </div>
-        <div class="role-card">
-            <span class="role-icon">🏥</span>
-            <h3>Palliative Unit</h3>
-            <p>Manage community health logistics.</p>
-            <a href="/dashboard/" class="btn-role">Dashboard</a>
+<section class="pb-5">
+    <div class="container">
+        <h2 class="text-center fw-bold mb-4">Our Impact So Far</h2>
+        <div class="row g-3 text-center">
+            <div class="col-6 col-md-3">
+                <div class="impact-box">
+                    <h4 class="fw-bold text-success mb-1">12,500+</h4>
+                    <small class="text-secondary">Medicines Donated</small>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="impact-box">
+                    <h4 class="fw-bold text-primary mb-1">8,300+</h4>
+                    <small class="text-secondary">People Helped</small>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="impact-box">
+                    <h4 class="fw-bold text-success mb-1">150+</h4>
+                    <small class="text-secondary">Palliative Units</small>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="impact-box">
+                    <h4 class="fw-bold text-primary mb-1">25,000+</h4>
+                    <small class="text-secondary">KG Medicine Saved</small>
+                </div>
+            </div>
         </div>
     </div>
 </section>
+
 {% endblock %}
