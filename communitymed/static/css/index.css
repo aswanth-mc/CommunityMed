@@ -11,3 +11,44 @@
     flex-direction: column;
     justify-content: end;
 }
+
+.step-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    color: #fff;
+    border-radius: 50%;
+    font-weight: 700;
+}
+
+.role-icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.bg-soft-green {
+    background: #eff9f2;
+}
+
+.bg-soft-blue {
+    background: #eef5ff;
+}
+
+.bg-soft-violet {
+    background: #f5f0ff;
+}
+
+.impact-box {
+    background: #ffffff;
+    border: 1px solid #e3ebea;
+    border-radius: 0.8rem;
+    padding: 1rem;
+}
+
+@media (max-width: 991.98px) {
+    .hero-visual {
+        min-height: 240px;
+    }
+}
